@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    color: white;
+}
+
+#showcase{
+    background-image:url(img/rps.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button{
+    background-color: aqua;
+    font-size: 36px;
+    border-radius: 10px;
+    border: white 2px solid;
+}
